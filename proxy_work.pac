@@ -5,6 +5,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "grafana.svc.onprem.kpm-ritm.ru") ||
         dnsDomainIs(host, "qa.lk.onprem.kpm-ritm.ru") ||
         dnsDomainIs(host, "dev.lk.onprem.kpm-ritm.ru") ||
+        dnsDomainIs(host, "gitlab.lk.onprem.kpm-ritm.ru") ||
         shExpMatch(host, "10.90.*") ||
         shExpMatch(host, "10.128.*") ||
         shExpMatch(host, "10.129.*") ||
