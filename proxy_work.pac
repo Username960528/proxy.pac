@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "gitlab.lk.onprem.kpm-ritm.ru") ||
         dnsDomainIs(host, "mail.engee.local") ||
         dnsDomainIs(host, "sms.engee.local") ||
+        dnsDomainIs(host, "https://gitlab.onprem.kpm-ritm.ru") ||
         shExpMatch(host, "10.90.*") ||
         shExpMatch(host, "10.128.*") ||
         shExpMatch(host, "10.129.*") ||
